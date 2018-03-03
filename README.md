@@ -1,4 +1,4 @@
-# UWP `NavigationView` Settings Item Deselect Bug
+# UWP `NavigationView` Settings Deselect Bug
 
 This repro demonstrates a bug found in UWP `NavigationView`. When the user sets the `SelectedItem` to `null`, he should be able to deselect the currently selected item. Unfortunately it does not work when the special Settings item is selected.
 
