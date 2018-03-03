@@ -7,7 +7,7 @@ This repro demonstrates a bug found in UWP `NavigationView`. When the user sets 
 1. Create a new UWP App
 2. In `MainPage.xaml` add the following:
 ``` xaml
-<NavigationView x:Name="NavigationView" SelectionChanged="Nv_OnSelectionChanged">
+<NavigationView x:Name="NavigationView">
     <NavigationView.MenuItems>
         <NavigationViewItem Content="Test item" />
     </NavigationView.MenuItems>
